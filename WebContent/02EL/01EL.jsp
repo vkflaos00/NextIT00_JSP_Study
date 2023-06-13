@@ -49,7 +49,7 @@ memId : <%= member.getMemId() %>
 	\${1 - 2} : ${1 - 2} <br>
 	\${10 * 3} : ${10 * 3} <br>
 	\${10 / 3} : ${10 / 3} <br>
-	\${10 div 3} : ${10 div 3} <br>  
+	<%-- \${10 div 3} : ${10 div 3} <br>   --%>
 	\${10 % 3} : ${10 % 3} <br>
 	\${10 mod 3} : ${10 mod 3} 
 	<hr>
@@ -74,7 +74,7 @@ memId : <%= member.getMemId() %>
 	 
 	\${'nextit' != 'nextit1'} : ${'nextit' != 'nextit1'} <br>
 	\${'nextit' ne 'nextit1'} : ${'nextit' ne 'nextit1'} <br>
-	 
+ 
 	\${3 < 10} : ${3 < 10} <br>
 	\${3 lt 10} : ${3 lt 10} <br>
 	 
